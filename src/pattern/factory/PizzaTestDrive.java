@@ -15,11 +15,11 @@ public class PizzaTestDrive {
 //        chicagoStore.orderPizza("Cheese");
 
 
-        // 팩토리 메소드 패턴을 적용한 피자 주문
         PizzaStore nyStore = new NYPizzaStore();
         PizzaStore chicagoStore = new ChicagoPizzaStore();
 
         nyStore.orderPizza("cheese");
         chicagoStore.orderPizza("cheese");
+
     }
 }
